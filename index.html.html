@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zekaryase Wijra | Senior System Analyst</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Space Grotesk', sans-serif; background-color: #0a0a0a; scroll-behavior: smooth; overflow-x: hidden; }
+        .glow { text-shadow: 0 0 20px rgba(52, 211, 153, 0.5); }
+        .card-gradient { background: linear-gradient(145deg, #151515, #0a0a0a); border: 1px solid #222; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .card-gradient:hover { border-color: #34d399; transform: translateY(-10px); }
+        .creative-bg { background: radial-gradient(circle at 50% 50%, #11221c 0%, #0a0a0a 100%); }
+        .profile-frame { border: 2px solid #34d399; box-shadow: 15px 15px 0px #34d399; transition: all 0.5s ease; }
+        @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+        .animate-scroll { display: flex; width: max-content; animation: scroll 25s linear infinite; }
+    </style>
+</head>
+<body class="text-gray-100 selection:bg-emerald-500 selection:text-black">
+
+    <nav class="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/5">
+        <div class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+            <div class="text-xl md:text-2xl font-black tracking-tighter uppercase italic">ZEKARYASE <span class="text-emerald-400">WIJRA.</span></div>
+            <div class="hidden md:flex space-x-10 text-xs uppercase tracking-[0.2em] font-bold">
+                <a href="#work" class="hover:text-emerald-400 transition">Portfolio</a>
+                <a href="mailto:wijraz@gmail.com" class="text-emerald-400 border-b border-emerald-400 pb-1">Get In Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="min-h-[90vh] flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-8 py-10 gap-16 creative-bg">
+        <div class="order-2 md:order-1 flex-1">
+            <h1 class="text-5xl md:text-8xl font-bold leading-[0.85] tracking-tighter italic">
+                SYSTEM <br> <span class="text-emerald-400 glow">ANALYST</span>
+            </h1>
+            <p class="mt-8 text-xl md:text-2xl max-w-xl text-gray-400 leading-relaxed font-light">
+                Architecting efficiency for modern enterprises. My name is <span class="text-white font-bold">Zekaryase</span>, and I turn business requirements into technical success.
+            </p>
+            <div class="mt-12 flex flex-wrap items-center gap-6">
+                <a href="mailto:wijraz@gmail.com" class="bg-emerald-500 text-black px-8 py-4 font-bold uppercase tracking-widest hover:bg-white transition-all">Hire Me</a>
+                <a href="C:\Users\z\Documents\zeki.docx" class="border border-white/20 px-8 py-4 font-bold uppercase tracking-widest hover:border-emerald-400 hover:text-emerald-400 transition-all">Download CV</a>
+            </div>
+        </div>
+
+        <div class="order-1 md:order-2">
+            <div class="w-64 h-64 md:w-[400px] md:h-[400px] profile-frame overflow-hidden bg-zinc-900">
+                <img src="huwa.jpg" alt="Zekaryase Wijra" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 transform hover:scale-105">
+            </div>
+        </div>
+    </header>
+
+    <section class="py-10 border-y border-white/5 bg-zinc-950 overflow-hidden">
+        <div class="animate-scroll whitespace-nowrap">
+            <span class="text-3xl md:text-5xl font-black uppercase italic mx-12 text-emerald-500/20">System Architecture</span>
+            <span class="text-3xl md:text-5xl font-black uppercase italic mx-12 text-emerald-400">Business Logic</span>
+            <span class="text-3xl md:text-5xl font-black uppercase italic mx-12 text-emerald-500/20">Data Mapping</span>
+            <span class="text-3xl md:text-5xl font-black uppercase italic mx-12 text-emerald-400">Stakeholder Mgmt</span>
+            <span class="text-3xl md:text-5xl font-black uppercase italic mx-12 text-emerald-500/20">UML Design</span>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-white text-black py-24 px-8 mt-20">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-6xl font-black uppercase italic leading-none">Let's <br>Connect.</h2>
+                <p class="mt-6 font-bold text-gray-600 tracking-widest uppercase">Zekaryase Wijra &copy; 2026</p>
+            </div>
+            <div class="flex flex-col justify-center space-y-4 md:text-right">
+                <a href="tel:0922945977" class="text-3xl md:text-5xl font-bold hover:text-emerald-600 transition">0922945977</a>
+                <a href="mailto:wijraz@gmail.com" class="text-3xl md:text-5xl font-bold hover:text-emerald-600 transition break-all">wijraz@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
